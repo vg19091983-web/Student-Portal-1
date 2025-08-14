@@ -1,0 +1,94 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+table, th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+tr:first-child th {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+/* Second header row */
+tr:nth-child(2) th {
+    background-color: #FF9800; /* Orange */
+    color: white;
+}
+
+/* Name columns */
+td:nth-child(2), td:nth-child(3) {
+    background-color: #FFFACD; /* Light Yellow */
+}
+
+/* Address columns */
+td:nth-child(5), td:nth-child(6), td:nth-child(7) {
+    background-color: #E0FFFF; /* Light Cyan */
+}
+
+/* Roll No column */
+td:first-child {
+    background-color: #F0E68C; /* Khaki */
+}
+
+/* Year column */
+td:nth-child(8) {
+    background-color: #FFDAB9; /* Peach Puff */
+}
+
+/* Branch column */
+td:last-child {
+    background-color: #E6E6FA; /* Lavender */
+}
+
+/* Alternate row colors for better readability */
+tr:nth-child(even) td {
+    opacity: 0.9;
+}
+ 
+
+ .container {
+            width: 50%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #45a049;
+            cursor: pointer;
+        }
